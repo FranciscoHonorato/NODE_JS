@@ -4,8 +4,8 @@
 }
 
 :root {
-  --cor-verde: #02791b;
- --cor-cinza: #e3e6e3; 
+  --cor-verde: rgb(5, 137, 78);
+ --cor-cinza: rgb(240, 241, 243); 
 }
 
 html {
@@ -15,6 +15,7 @@ html {
 
 header{
   background-color: var(--cor-cinza);
+  padding-bottom: 4rem;
 }
 
 section {
@@ -41,6 +42,7 @@ section {
     padding: 10px;
     list-style-type: none;
     gap: 1.5rem;
+    
   }
 
 
@@ -52,7 +54,11 @@ li {
 li a {
   text-decoration: none;
   color: var(--cor-verde);
-   
+  
+}
+
+label{
+  font-family: Arial black ;
 }
 
 li a:hover {
@@ -61,6 +67,7 @@ li a:hover {
   padding-bottom: 3px;
 }
 
+ 
 h1 {
   color: var(--cor-verde);
 }
