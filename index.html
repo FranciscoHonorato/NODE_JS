@@ -10,23 +10,28 @@
     <script src="https://kit.fontawesome.com/9d2df36c95.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <nav class="menu">
-        <div class="burguer">
-            <i class="fa-solid fa-bars" onclick="clickMenu()"> </i>
-        </div>
-        <ul class="itens-menu" id="itens-menu">
-            <li class="item"> <a href="#bunner" > <label> Inicio </label> </a> </li>
-            <li class="item"> <a href="#sobre" > <label> Sobre </label> </a> </li>
-            <li class="item"> <a href="#projetos" > <label> Projetos </label> </a> </li>
-            <li class="item"> <a href="#contatos" > <label> Contatos </label> </a> </li>
-            
-            <i class="fa-solid fa-circle-half-stroke" onclick="mudarTema()"></i>
-        </ul>
-        
-    </nav>
+<body class="bg-light">
     <header>
+        <nav class="menu bg-light">
+            <div class="burguer">
+                <i class="fa-solid fa-bars" onclick="clickMenu()"> </i>
+                <div class="btn-tema">
+                    <i class="fa-solid fa-circle-half-stroke" onclick="mudarTema()"></i>
+                </div>
+
+            </div>
+            <ul class="itens-menu" id="itens-menu">
+                <li class="item"> <a href="#bunner"> <label> Inicio </label> </a> </li>
+                <li class="item"> <a href="#sobre"> <label> Sobre </label> </a> </li>
+                <li class="item"> <a href="#projetos"> <label> Projetos </label> </a> </li>
+                <li class="item"> <a href="#contatos"> <label> Contatos </label> </a> </li>
+                <li class="icon-tema"> <i class="fa-solid fa-circle-half-stroke" onclick="mudarTema()"></i> </li>
+            </ul>
+
+        </nav>
+        <hr>
         <div id="bunner" class="bunner">
+
             <div class="texto">
                 <h3> Olá! eu sou </h3>
                 <h1> Francisco de Assis Honorato</h1>
@@ -41,17 +46,18 @@
             <div class="imagem">
                 <img src="img/imagem2.jpg" alt="perfil">
             </div>
+
         </div>
     </header>
 
-    <main>
+    <main class="light">
 
         <section id="sobre" class="sobre">
             <h1>Sobre</h1>
             <p>
                 Meu nome é Francisco de Assis Honorato e sou apaixonado por tecnologia.
-                 Possuo habilidades técnicas em desenvolvimento com Java, JavaScript, React e bancos de dados. 
-                 Sou formado em Ciência da Computação pela univercidade Univeritas Rio de Janeiro.
+                Possuo habilidades técnicas em desenvolvimento com Java, JavaScript, React e bancos de dados.
+                Sou formado em Ciência da Computação pela univercidade Univeritas Rio de Janeiro.
             </p>
         </section>
 
@@ -59,7 +65,7 @@
             <h1> Projetos </h1>
             <div class="div-cards">
 
-                <div class="cards">
+                <div class="card bg-light">
                     <img src="img/projeto1.png" alt="lista de tarefas">
                     <div class="texto">
                         <h2>Lista de tarefas</h2>
@@ -68,7 +74,7 @@
                     </div>
                 </div>
 
-                <div class="cards reverse">
+                <div class="card reverse bg-light">
                     <img src="img/projeto2.png" alt="controle de gastos">
                     <div class="texto">
                         <h2>Controle de gastos</h2>
@@ -76,7 +82,7 @@
                         <i class="fa-brands fa-react"></i>
                     </div>
                 </div>
-                <div class="cards">
+                <div class="card bg-light">
                     <img src="img/jogo1.jpg" alt="jogo da velha">
                     <div class="texto">
                         <h2>jogo da velha</h2>
@@ -91,6 +97,7 @@
         </section>
     </main>
     <footer class="rodape">Desenvolvido por <a href="#">Francisco de Assis</a> </footer>
+
     <script src="js/script.js"></script>
 </body>
 
