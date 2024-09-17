@@ -1,4 +1,5 @@
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
+
   .burguer {
     font-size: 1.5rem;
     padding-left: 2rem;
@@ -14,10 +15,19 @@
     margin-left: 80%;
   }
 
+  .btn-tema:hover {
+    color: var(--cor-verde);
+  }
+
+  .icon-burg:hover {
+    color: var(--cor-verde);
+  }
+
   .menu {
 
     flex-direction: column;
     height: auto;
+
   }
 
   .itens-menu {
@@ -27,6 +37,7 @@
     display: none;
     padding-left: 2rem;
     gap: 0.3rem;
+
   }
 
   .icon-tema {

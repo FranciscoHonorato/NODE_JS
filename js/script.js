@@ -24,9 +24,18 @@ if (burguer.style.display === 'flex') {
 
 
 function mudarTema() {
-  for (let bg of bgLight) {
-   bg.classList.toggle('bg-dark')
-  }
-  
+    for (let bg of bgLight) {
+        bg.classList.toggle('bg-dark')
+    }
+
     light[0].classList.toggle('dark')
 }
+
+window.addEventListener('resize', () => {
+    let largura = window.innerWidth
+    if (largura > 768) {
+        itemMenu.style.display = "flex"
+    } else {
+        itemMenu.style.display = "none"
+    }
+})
