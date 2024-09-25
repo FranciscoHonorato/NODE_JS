@@ -135,11 +135,16 @@ img:hover {
   font-size: 40px;
   gap: 2rem;
 }
-
+.contatos a{
+  text-decoration: none;
+}
 .icon {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.fa-github {
+  color:inherit;
+}
 
 .fa-github:hover {
   color: #5a5d70;
