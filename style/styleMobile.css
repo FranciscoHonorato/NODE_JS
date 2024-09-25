@@ -61,4 +61,7 @@
     flex-direction: column;
   }
 
+  .card img{
+    width: 90%;
+  }
 }

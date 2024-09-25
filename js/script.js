@@ -8,10 +8,10 @@ let light = document.querySelectorAll('.light')
 
 function clickMenu() {
 
-    if (itemMenu.style.display == 'none') {
-        itemMenu.style.display = "flex"
-    } else {
+    if (itemMenu.style.display == 'flex') {
         itemMenu.style.display = "none"
+    } else {
+        itemMenu.style.display = "flex"
     }
 }
 
