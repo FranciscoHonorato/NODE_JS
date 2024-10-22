@@ -54,6 +54,7 @@
   }
 
   .div-cards {
+
     flex-direction: column;
   }
 
@@ -62,6 +63,14 @@
   }
 
   .card img{
-    width: 90%;
+   max-width: 100%;
+ 
+  }
+
+  .texto{
+   
+    height: 16rem;
+   margin-top: 5rem
+   ;
   }
 }

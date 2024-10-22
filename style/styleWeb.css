@@ -135,15 +135,17 @@ img:hover {
   font-size: 40px;
   gap: 2rem;
 }
-.contatos a{
+
+.contatos a {
   text-decoration: none;
 }
+
 .icon {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .contatos .fa-github {
-  color:inherit;
+  color: inherit;
 }
 
 .ontatos .fa-github:hover {
@@ -207,12 +209,13 @@ img:hover {
 }
 
 .card {
+  margin: 1.5rem;
   display: flex;
   align-items: center;
   text-align: center;
   gap: 2rem;
   border-radius: 1rem;
-overflow: hidden;
+  overflow: hidden;
 }
 
 .reverse {
@@ -220,14 +223,13 @@ overflow: hidden;
 }
 
 .card img {
-  width: 60%;
-  max-width: 25rem;
-  
+  max-width: 50%;
 }
 
 .texto {
   padding-right: 2rem;
   margin: 1.5rem;
+
 }
 
 .texto a {
@@ -235,17 +237,17 @@ overflow: hidden;
 
 }
 
-.btnGit{
+.btnGit {
   margin-top: .8rem;
-  color:inherit ;
+  color: inherit;
   background-color: var(--cor-verde);
   border-radius: 8px;
   padding: 6px;
   border: none;
- 
+
 }
 
-.btnGit a{
+.btnGit a {
   margin: 5px;
   text-decoration: none;
   color: #e6ecee;
