@@ -186,6 +186,7 @@ img:hover {
   padding-left: 3rem;
   padding-right: 3rem;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .sobre p {
@@ -242,7 +243,7 @@ img:hover {
   color: inherit;
   background-color: var(--cor-verde);
   border-radius: 8px;
-  padding: 6px;
+  padding: 8px;
   border: none;
 
 }
@@ -251,7 +252,7 @@ img:hover {
   margin: 5px;
   text-decoration: none;
   color: #e6ecee;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 
 }
 
